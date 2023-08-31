@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hLogo{
+color: #FFF;
+font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 42px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #58D498;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logoname{
+    display: flex; 
+    align-items: center;
+    color: #14416B;
+font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.menu-item{
+color: #14416B;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.menu-item:hover{
+    color: #58D498;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.active{
+    color: #58D498;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu{
+    gap: 50px;
+}
+
+.header{
+width: 1221px;
+margin: auto;
+}
+
+.header button{
+    width: 192px;
+    height: 72px;
+    flex-shrink: 0;
+    background: #58D498;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
